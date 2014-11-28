@@ -4,7 +4,7 @@ Syntax::Feature::In - provides an "in" operator as a replacement for smartmatch
 
 # VERSION
 
-version 0.0001
+version 0.0002
 
 # SYNOPSIS
 

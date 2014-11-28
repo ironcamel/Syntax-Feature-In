@@ -21,7 +21,6 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.006",
   "NAME" => "Syntax::Feature::In",
   "PREREQ_PM" => {
-    "Data::Dump" => 0,
     "Exporter" => 0,
     "Sub::Infix" => 0,
     "match::simple" => "0.009",
@@ -36,7 +35,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "syntax" => "0.004"
   },
-  "VERSION" => "0.0001",
+  "VERSION" => "0.0002",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -44,7 +43,6 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Data::Dump" => 0,
   "Exporter" => 0,
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,

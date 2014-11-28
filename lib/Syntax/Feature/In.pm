@@ -5,7 +5,6 @@ use match::simple qw(match);
 use Sub::Infix;
 use Exporter qw(import);
 our @EXPORT = qw(in);
-use Data::Dump;
 
 # VERSION
 
