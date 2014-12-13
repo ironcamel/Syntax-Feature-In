@@ -4,7 +4,7 @@ Syntax::Feature::In - provides an "in" operator as a replacement for smartmatch
 
 # VERSION
 
-version 0.0002
+version 0.0003
 
 # SYNOPSIS
 
@@ -15,14 +15,15 @@ version 0.0002
 # DESCRIPTION
 
 This modules imports the `in` operator.
-It can be used in three equivalent forms:
+It can be used as in infix operator:
 
     $foo |in| $bar
-    $foo /in/ $bar
-    $foo <<in>> $bar
 
-It does a simplified version of smartmatch.
-See the `match` function from [match::simple](http://search.cpan.org/perldoc?match::simple) for more details.
+Or in a more traditional way:
+
+    in->($foo, $bar)
+
+It does a simplified version of smartmatch as described in [match::simple](http://search.cpan.org/perldoc?match::simple).
 
 # SEE ALSO
 

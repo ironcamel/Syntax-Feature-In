@@ -25,14 +25,15 @@ sub install {
 =head1 DESCRIPTION
 
 This modules imports the C<in> operator.
-It can be used in three equivalent forms:
+It can be used as in infix operator:
 
     $foo |in| $bar
-    $foo /in/ $bar
-    $foo <<in>> $bar
 
-It does a simplified version of smartmatch.
-See the C<match> function from L<match::simple> for more details.
+Or in a more traditional way:
+
+    in->($foo, $bar)
+
+It does a simplified version of smartmatch as described in L<match::simple>.
 
 =head1 SEE ALSO
 
